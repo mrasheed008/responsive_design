@@ -1,0 +1,25 @@
+/*styles fo all devices and mobiles */
+.column{
+    float: left; /* Applies on all devices */
+    width: 100%; /* Applies on all devices */
+    height: 50px; /* Applies on all devices */
+    /*mobiles only */
+    background-color: #000;
+    margin: 10px 0;
+}
+
+/*tablets only */
+@media (min-width: 768px){
+    .column{
+        background-color: #e84610;
+        width: 30%;
+        margin: 10px;
+    }
+}
+
+/*desktops*/
+@media (min-width: 992px){
+    .column{
+        background-color: #0997d3;
+    }
+}
